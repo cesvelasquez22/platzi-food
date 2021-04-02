@@ -1,0 +1,19 @@
+{
+  "name": "platzi-food",
+  "version": "1.0.0",
+  "description": "Proyecto de curso de tailwindcss en Plati",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "dev": "postcss css/tailwind.css -o public/css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Velasquez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  }
+}
