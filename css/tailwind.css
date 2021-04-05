@@ -1,3 +1,36 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+
+.form-control {
+    @apply w-full leading-snug text-gray-800 py-1 px-4 rounded border bg-gray-200 border-blue-300;
+}
+
+.form-control:focus {
+    @apply bg-white outline-none;
+}
+
+.btn {
+    @apply w-full md:w-24 px-4 py-1 rounded shadow-lg bg-gray-500 text-white mx-auto block;
+}
+
+.btn-primary {
+    @apply bg-yellow-600;
+}
+
+.btn:hover {
+    @apply bg-gray-700 shadow-none;
+}
+
 @import "tailwindcss/utilities";
+
+/* h1 {
+    @apply text-3xl text-green-700 font-semibold
+}
+
+h2 {
+    @apply text-2xl text-green-400 font-semibold
+}
+
+h3 {
+    @apply text-xl text-orange-400 font-semibold
+} */
